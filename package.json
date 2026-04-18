@@ -1,0 +1,24 @@
+{
+  "name": "geometry-dash-openhands",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxcliang-blip/geometry-dash-openhands.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxcliang-blip/geometry-dash-openhands/issues"
+  },
+  "homepage": "https://github.com/maxcliang-blip/geometry-dash-openhands#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
