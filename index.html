@@ -983,6 +983,13 @@
             document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
             document.getElementById(screenId).classList.add('active');
 
+            // Update game state
+            if (screenId === 'gameScreen') {
+                gameState = 'game';
+            } else if (screenId === 'mainMenu' || screenId === 'levelSelect' || screenId === 'levelEditor') {
+                gameState = 'menu';
+            }
+
             if (screenId === 'levelSelect') {
                 renderLevelGrid();
             } else if (screenId === 'levelEditor') {
